@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "sasdsadasd",
+      "empresa": "dsadasdas",
+      "telefono": "3213123",
+      "email": "dsadasda@dasd.com",
+      "notas": "dsadasdasdasdsdadsa dasdasd23 32323",
+      "id": 1
+    },
+    {
+      "nombre": "sasdsadasd",
+      "empresa": "dsadasdas",
+      "telefono": "3213123",
+      "email": "dsadasda@dasd.com",
+      "notas": "dsadasdasdasdsdadsa dasdasd23 32323",
+      "id": 2
+    }
+  ]
+}
