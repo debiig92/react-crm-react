@@ -1,9 +1,12 @@
 import React from "react";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import Alerta from "./Alerta";
+import { useNavigate } from "react-router-dom";
 
 const Formulario = () => {
+  const navigate = useNavigate();
+
   const nuevoClienteSchema = Yup.object().shape({
     nombre: Yup.string()
       .min(3, "El nombre es muy corto")
@@ -32,6 +35,7 @@ const Formulario = () => {
       console.log(respuesta);
       const resultado = await respuesta.json();
       console.log(resultado);
+      navigate("/clientes");
     } catch (error) {}
   };
   return (
