@@ -17,7 +17,9 @@ const VerCliente = () => {
       } catch (error) {
         console.log(error);
       }
-      setCargando(!cargando);
+      setTimeout(() => {
+        setCargando(!cargando);
+      }, 500);
     };
     obtenerCliente();
   }, []);
