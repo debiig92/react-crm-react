@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 const Cliente = ({ cliente }) => {
+  const navigate = useNavigate();
   return (
     <tr className="border-b hover:bg-gray-100">
       <td className="p-3">{cliente.nombre}</td>
@@ -17,6 +18,7 @@ const Cliente = ({ cliente }) => {
         <button
           className="bg-yellow-600 hover:bg-yellow-700 block w-full text-white p-2 uppercase font-bold text-xs mb-2"
           type="button"
+          onClick={() => navigate(`/clientes/${cliente.id}`)}
         >
           Ver
         </button>
