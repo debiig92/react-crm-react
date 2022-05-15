@@ -1,22 +1,6 @@
 {
   "clientes": [
     {
-      "nombre": "MIAU MIAU",
-      "empresa": "Empresa 1",
-      "telefono": "3213123",
-      "email": "dsadasda@dasd.com",
-      "notas": "dsadasdasdasdsdadsa dasdasd23 32323",
-      "id": 1
-    },
-    {
-      "nombre": "MIAU",
-      "empresa": "Empresa 2",
-      "telefono": "3213123",
-      "email": "dsadasda@dasd.com",
-      "notas": "dsadasdasdasdsdadsa dasdasd23 32323",
-      "id": 2
-    },
-    {
       "nombre": "TEST2",
       "empresa": "Empresa 3",
       "telefono": "3213123",
@@ -31,14 +15,6 @@
       "email": "deby.guardado@gmail.com",
       "notas": "",
       "id": 4
-    },
-    {
-      "nombre": "HOLA1",
-      "empresa": "novatech",
-      "telefono": "79899626",
-      "email": "deby.guardado@gmail.com",
-      "notas": "Pruebas 1\nPruebas 2 \nPruebas 3",
-      "id": 5
     },
     {
       "nombre": "HOLAAAA",
